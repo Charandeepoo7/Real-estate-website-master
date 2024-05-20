@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <Heading
-            title="Search Your Nearest PG "
+            title="Search Your Nearest PG " className="title"
             subtitle="Find new & featured PG located near your university."
           />
           <div className="backright">
