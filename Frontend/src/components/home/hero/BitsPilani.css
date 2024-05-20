@@ -1,0 +1,88 @@
+.recent .text {
+    padding: 30px;
+  }
+  
+  .recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+  }
+  
+  .recent .category i {
+    font-size: 20px;
+    color: #827f7f;
+    cursor: pointer;
+  }
+  
+  .recent p {
+    color: #72809d;
+  }
+  
+  .phoneicon {
+    margin-right: 2px;
+  }
+  
+  .recent .button {
+    border-top: 1px solid #ffffff;
+    padding: 10px 30px;
+  }
+  
+  .priceicon {
+    font-size: 16px;
+  }
+  
+  .bedicon {
+    font-size: 16px;
+    margin-right: 3px;
+  }
+  
+  .distanceicon {
+    font-size: 20px;
+  }
+  
+  .pricebox {
+    margin-right: px;
+  }
+  
+  /* .flex{
+      width: 550px;
+      margin-left: 100px;
+    } */
+  .backright {
+    width: 600px;
+    margin-left: 80px;
+  }
+  
+  .wishlist-toggle-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .wishlist-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .close-button {
+    background: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  
+  }
+  
+  /* .img{
+      height: 70%;
+      width: 100%;
+    } */

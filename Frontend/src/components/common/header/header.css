@@ -1,0 +1,132 @@
+header {
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  /* padding: 15px 0; */
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.btn1 {
+  background-color: #27ae60;
+  color: #f0f5f1;
+  border: 1px solid #f5f5f5;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+
+}
+
+.hearticon {
+  color: rgb(142, 132, 132);
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.iconcart {
+  font-size: 30px;
+  color: rgb(66, 56, 56);
+  cursor: pointer;
+}
+
+header img {
+  width: 170px;
+}
+
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #27ae60;
+}
+
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #27ae60;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+header .toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  header img {
+    margin-top: 30px;
+  }
+
+  header .button {
+    display: none;
+  }
+
+  header .nav .flex {
+    display: none;
+  }
+
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+
+.logo {
+  height: 60px;
+}
+
+/* header.css */
+
+.wishlist-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hearticon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.wishlist-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
